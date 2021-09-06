@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mobile/Homework6.dart';
 import 'package:mobile/Homework7.dart';
+import 'package:mobile/Homework8.dart';
 import 'package:mobile/Midterm.dart';
 
 void main() {
@@ -12,11 +13,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Homework7',
+        title: 'Homework8',
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: Homework7(),
+        home: Homework8(),
       );
     }
   }
