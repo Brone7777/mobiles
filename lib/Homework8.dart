@@ -54,7 +54,6 @@ class _HomeworkState extends State<Homework8> {
         backgroundColor: Colors.cyan,
       ),
       body: Container(
-        //child: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
