@@ -11,7 +11,18 @@ class Homework8 extends StatefulWidget {
 
 class _HomeworkState extends State<Homework8> {
   var fonts = 'Sarabun';
-  List<String> font = ["Kanit", "Prompt", "Sriracha" ,"IBM Plex Sans Thai"];
+  List<String> font = [
+    "Kanit",
+    "Prompt",
+    "Sriracha",
+    "Itim",
+    "Mitr",
+    "Krub",
+    "Niramit",
+    "Trirong",
+    "Charm",
+    "Athiti"
+  ];
 
   Widget _fontbutton(String str) {
     return Padding(
@@ -21,7 +32,7 @@ class _HomeworkState extends State<Homework8> {
           fonts = str;
         }),
         style: ElevatedButton.styleFrom(
-            primary: Colors.teal,
+            primary: Colors.greenAccent,
             padding: EdgeInsets.symmetric(horizontal: 50.0, vertical: 30.0)),
         child: Text(
           str.toString(),
@@ -37,7 +48,7 @@ class _HomeworkState extends State<Homework8> {
       backgroundColor: Colors.tealAccent,
       appBar: AppBar(
         title: Text(
-          'หน้าหลัก',
+          'Thai Font Viewer',
           style: GoogleFonts.kanit(fontSize: 22.0),
         ),
         backgroundColor: Colors.cyan,
@@ -56,7 +67,10 @@ class _HomeworkState extends State<Homework8> {
                 ),
               ),
             ),
-            Text("font: $fonts"),
+            Text(
+              "font: $fonts",
+              style: TextStyle(fontSize: 15.0),
+            ),
             Card(
               child: Wrap(
                 alignment: WrapAlignment.center,
