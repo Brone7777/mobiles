@@ -33,7 +33,7 @@ class _HomeworkState extends State<Homework8> {
         }),
         style: ElevatedButton.styleFrom(
             primary: Colors.greenAccent,
-            padding: EdgeInsets.symmetric(horizontal: 50.0, vertical: 30.0)),
+            padding: EdgeInsets.symmetric(horizontal: 30.0, vertical: 20.0)),
         child: Text(
           str.toString(),
           style: TextStyle(color: Colors.black),
