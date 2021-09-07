@@ -11,7 +11,7 @@ class Homework8 extends StatefulWidget {
 
 class _HomeworkState extends State<Homework8> {
   var fonts = 'Sarabun';
-  List<String> font = ["Kanit", "Prompt"];
+  List<String> font = ["Kanit", "Prompt", "Sriracha" ,"IBM Plex Sans Thai"];
 
   Widget _fontbutton(String str) {
     return Padding(
@@ -51,11 +51,12 @@ class _HomeworkState extends State<Homework8> {
             Expanded(
               child: Center(
                 child: Text(
-                  '運命の人に出会えますように\nขอให้เจอคนที่ใช่',
+                  'ขอให้เป็นวันที่ดี',
                   style: GoogleFonts.getFont(fonts, fontSize: 85.0),
                 ),
               ),
             ),
+            Text("font: $fonts"),
             Card(
               child: Wrap(
                 alignment: WrapAlignment.center,
