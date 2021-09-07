@@ -10,7 +10,6 @@ class Homework8 extends StatefulWidget {
 }
 
 class _HomeworkState extends State<Homework8> {
-  var fonts = 'Sarabun';
   List<String> font = [
     "Kanit",
     "Prompt",
@@ -23,6 +22,7 @@ class _HomeworkState extends State<Homework8> {
     "Charm",
     "Athiti"
   ];
+  var fonts = 'Sarabun';
 
   Widget _fontbutton(String str) {
     return Padding(
