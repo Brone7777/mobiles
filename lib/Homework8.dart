@@ -56,7 +56,6 @@ class _HomeworkState extends State<Homework8> {
       body: Container(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Expanded(
               child: Center(
