@@ -18,7 +18,7 @@ class _HomeworkState extends State<Homework8> {
     "Mitr",
     "Krub",
     "Niramit",
-    "Trirong",
+    "Sarabun",
     "Charm",
     "Athiti"
   ];
